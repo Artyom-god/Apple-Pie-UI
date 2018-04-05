@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -33,30 +33,51 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liA-BP-s8e">
                                                         <rect key="frame" x="0.0" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="А"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dze-k7-rQ6"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2y-i4-fa2">
                                                         <rect key="frame" x="146.5" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Б"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q6H-RA-Ay9"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8Q-sf-cXf">
                                                         <rect key="frame" x="292.5" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="В"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gYe-V1-tOx"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3h-lo-aO2">
                                                         <rect key="frame" x="439" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Г"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6gj-d0-YoY"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Up1-9h-n01">
                                                         <rect key="frame" x="585" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="Д"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qV2-Bw-LLc"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPO-wr-43R">
                                                         <rect key="frame" x="731.5" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Е"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c3i-bq-mqd"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHR-hZ-dxW">
                                                         <rect key="frame" x="877.5" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="Ё"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tog-Ty-ZAR"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -66,30 +87,51 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inN-bO-PGQ">
                                                         <rect key="frame" x="0.0" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="Ж"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5OU-Cb-n5J"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ti-bA-0nQ">
                                                         <rect key="frame" x="146.5" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="З"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wzj-DU-0iC"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWK-WP-gam">
                                                         <rect key="frame" x="292.5" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="И"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2kg-4k-e2e"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dh2-su-xR3">
                                                         <rect key="frame" x="439" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Й"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W3B-Bu-xni"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Scm-SM-18t">
                                                         <rect key="frame" x="585" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="К"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YFO-Xf-SMO"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pa-4d-9cR">
                                                         <rect key="frame" x="731.5" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Л"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wNX-IY-l4C"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9d-C4-h2Z">
                                                         <rect key="frame" x="877.5" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="М"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5o9-fC-JeH"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -99,30 +141,51 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxw-GO-K9y">
                                                         <rect key="frame" x="0.0" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="Н"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gzW-ds-Mto"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2T-9h-21a">
                                                         <rect key="frame" x="146.5" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="О"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zja-pv-HL7"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79y-8d-wlW">
                                                         <rect key="frame" x="292.5" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="П"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zSb-eH-ed5"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRy-10-SKJ">
                                                         <rect key="frame" x="439" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Р"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JhO-dd-mEZ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4Z-Bl-Hsn">
                                                         <rect key="frame" x="585" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="С"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="grO-i1-Hnr"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1D-wo-SZC">
                                                         <rect key="frame" x="731.5" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Т"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eGk-JD-s0V"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nf-9y-q3J" userLabel="У">
                                                         <rect key="frame" x="877.5" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="У"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dOH-9B-J1O"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -132,30 +195,51 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvL-rd-xeY">
                                                         <rect key="frame" x="0.0" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="Ф"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="86t-nc-PoA"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeG-Tf-In2">
                                                         <rect key="frame" x="146.5" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Х"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PaC-yD-Wxa"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmW-Ov-ObG">
                                                         <rect key="frame" x="292.5" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="Ц"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QMx-DR-RL7"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w4-ko-gWp">
                                                         <rect key="frame" x="439" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Ч"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tBV-cp-YFu"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0A-OV-iP2">
                                                         <rect key="frame" x="585" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="Ш"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uKA-hQ-wE3"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9XW-ZS-3Hv">
                                                         <rect key="frame" x="731.5" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Щ"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5IV-2q-WRf"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kT9-Qd-rCr">
                                                         <rect key="frame" x="877.5" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="Ъ"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vap-bb-kZ7"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -168,22 +252,37 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqz-6J-dyl">
                                                         <rect key="frame" x="146.5" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Ы"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eJa-A7-fli"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WnF-rt-eg3">
                                                         <rect key="frame" x="292.5" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="Ь"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wKj-gx-kd3"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cck-g5-dga">
                                                         <rect key="frame" x="439" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Э"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VzT-cl-AnP"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAe-4u-ckg">
                                                         <rect key="frame" x="585" y="0.0" width="146.5" height="30"/>
                                                         <state key="normal" title="Ю"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n6o-bL-yNT"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfA-YR-rV1">
                                                         <rect key="frame" x="731.5" y="0.0" width="146" height="30"/>
                                                         <state key="normal" title="Я"/>
+                                                        <connections>
+                                                            <action selector="buttentup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uak-sG-WOR"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwK-ft-neH">
                                                         <rect key="frame" x="877.5" y="0.0" width="146.5" height="30"/>
@@ -222,6 +321,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="TREE" destination="OG6-NI-gyq" id="ISP-Bp-DBE"/>
+                        <outlet property="collect" destination="MsL-u5-CNJ" id="KKo-jS-3Cm"/>
+                        <outlet property="score" destination="0kY-EI-AC1" id="bk6-ip-9J7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
